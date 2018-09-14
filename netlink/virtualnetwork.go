@@ -21,11 +21,11 @@ import (
 	"syscall"
 	"time"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/osrg/gobgp/client"
 	"github.com/osrg/gobgp/packet/bgp"
 	"github.com/osrg/gobgp/table"
-	"github.com/osrg/goplane/config"
+	"github.com/AlainMaesNokia/goplane/config"
 	"github.com/vishvananda/netlink"
 	"github.com/vishvananda/netlink/nl"
 	"gopkg.in/tomb.v2"

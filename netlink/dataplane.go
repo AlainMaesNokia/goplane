@@ -20,12 +20,12 @@ import (
 	"net"
 	"time"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/osrg/gobgp/client"
 	bgpconfig "github.com/osrg/gobgp/config"
 	"github.com/osrg/gobgp/packet/bgp"
 	"github.com/osrg/gobgp/table"
-	"github.com/osrg/goplane/config"
+	"github.com/AlainMaesNokia/goplane/config"
 	"github.com/vishvananda/netlink"
 	"gopkg.in/tomb.v2"
 )
